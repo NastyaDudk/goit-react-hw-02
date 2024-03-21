@@ -1,6 +1,6 @@
-import css from "./Option.module.css";
+import css from "./Options.module.css";
 
-const Option = ({ updateFeedback, resetFeedback, totalFeedback }) => {
+const Options = ({ updateFeedback, resetFeedback, totalFeedback }) => {
   return (
     <div className={css.wrapper}>
       <button onClick={() => updateFeedback("good")}>Good</button>
@@ -15,4 +15,4 @@ const Option = ({ updateFeedback, resetFeedback, totalFeedback }) => {
   );
 };
 
-export default Option;
+export default Options;
